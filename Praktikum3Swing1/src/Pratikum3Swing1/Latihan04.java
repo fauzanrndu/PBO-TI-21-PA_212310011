@@ -43,7 +43,7 @@ public class Latihan04 {
 			bio.tampilkannilai();
 		
 			int keluar = JOptionPane.showConfirmDialog(null, "Apakah Anda ingin keluar?", "Konfirmasi", JOptionPane.YES_NO_OPTION);
-			//validasi
+			//validasiPilihan
 			if(keluar == JOptionPane.YES_OPTION) {
 				lanjut = false;
 			} else {
